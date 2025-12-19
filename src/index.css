@@ -1,0 +1,111 @@
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+.navbar {
+    background-color: var(--second-color);
+}
+
+footer {
+    background-color: var(--second-color);
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-linkedin,
+.icon-globe {
+    width: 40px;
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+
+.footer-copyright {
+    background-color: rgb(26, 37, 47);
+}
+
+.home-content .home-text h2 {
+    font-size: 37px;
+    line-height: 45px;
+}
+
+.left-line,
+.right-line,
+.rightline-about,
+.leftline-about {
+    width: 80px;
+    height: 4px;
+    background-color: aliceblue;
+}
+
+.home-content {
+    background-color: var(--main-color);
+}
+
+.about-content {
+    background-color: var(--main-color);
+}
+
+.about-text {
+    min-height: auto;
+}
+
+.about-component ,
+.protofolio-component,
+.contact {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.leftline-protofolio,
+.rightline-protofolio,
+.rightline-contact,
+.leftline-contact {
+    width: 80px;
+    height: 4px;
+    background-color:rgb(44, 62, 80);
+}
+.protofolio ,
+.contact{
+        color: rgb(44, 62, 80);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-protofolio:hover .overlay {
+    opacity: 0.9;
+}
+
+.overlay i {
+    color: white;
+    font-size: 10em;
+}
+.image-protofolio {
+    cursor: pointer;
+}
+.contact-form .form-floating .form-control:focus{
+    box-shadow: none;
+    
+
+}
+.my-btn , 
+.my-btn:hover{
+background-color: var(--main-color);
+}
+.active{
+    background-color: var(--main-color);
+    border-radius: 10px;
+}
