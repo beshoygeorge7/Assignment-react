@@ -1,4 +1,5 @@
 {
+  "homepage": "https://beshoygeorge7.github.io/Assignment-react",
   "name": "yes",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deplay":"gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
